@@ -473,16 +473,16 @@ body[data-theme="light"] {
         linear-gradient(180deg, #f7f9fc 0%, #edf2f8 100%);
 }
 
-.hero .callout {
+.hero .callout[data-theme="light"] {
     background: linear-gradient(180deg, rgba(76, 141, 255, 0.12), #0071bc7f), var(--card);
 }
 
-.theme-btn {
+.theme-btn[data-theme="light"] {
     background: rgba(0, 0, 0, 0.24);
     /* color: var(--text); */
 }
 
-.badge-status.valid {
+.badge-status.valid[data-theme="light"] {
     color: #2d8059;
     border-color: rgba(43, 126, 90, 0.45);
     background: rgba(61, 220, 151, 0.14);
