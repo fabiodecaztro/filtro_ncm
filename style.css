@@ -39,11 +39,14 @@ body {
         radial-gradient(1000px 700px at 100% 10%, rgba(61, 220, 151, 0.10), transparent 60%),
         linear-gradient(180deg, #0b1220 0%, #0a1020 100%);
     color: var(--text);
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     width: min(1280px, calc(100% - 32px));
     margin: 0 auto;
+    ;
 }
 
 .hidden {
@@ -117,6 +120,7 @@ body {
 
 main {
     padding: 26px 0 40px;
+    flex: 1;
 }
 
 .hero {
@@ -440,6 +444,7 @@ tbody tr.expired td {
 footer {
     padding: 8px 0 30px;
     color: var(--faint);
+    text-align: center;
 }
 
 .linkBase {
@@ -473,15 +478,17 @@ body[data-theme="light"] {
         linear-gradient(180deg, #f7f9fc 0%, #edf2f8 100%);
 }
 
+[data-theme="light"] .hero .callout,
 .hero .callout[data-theme="light"] {
     background: linear-gradient(180deg, rgba(76, 141, 255, 0.12), #0071bc7f), var(--card);
 }
 
+[data-theme="light"] .theme-btn,
 .theme-btn[data-theme="light"] {
     background: rgba(0, 0, 0, 0.24);
-    /* color: var(--text); */
 }
 
+[data-theme="light"] .badge-status.valid,
 .badge-status.valid[data-theme="light"] {
     color: #2d8059;
     border-color: rgba(43, 126, 90, 0.45);
