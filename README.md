@@ -103,7 +103,3 @@ Para testar localmente:
 - A leitura depende de a estrutura das planilhas respeitar as colunas mínimas listadas acima; se algo crítico não for encontrado, aparece uma mensagem de erro.
 - A performance foi pensada para planilhas “reais”, mas ainda em ambiente de estação de trabalho (não é um motor de busca massivo).
 - A geração de PDF usa a função nativa de impressão do navegador (`window.print`); o resultado final pode variar levemente entre navegadores e sistemas.
-
-## Licença
-
-Defina aqui a licença desejada (por exemplo, MIT, Apache 2.0 etc.).
